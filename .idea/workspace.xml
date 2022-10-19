@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="704332b5-9d52-4487-87da-3c261fbbc801" name="Default Changelist" comment="[Android &amp; iOS] - Devices Details Screen Reusable fucntions and Test Cases&#10;1. Home Tab cards&#10;2. Data Usage Tab Card&#10;3. Health Tab Cards" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Venice_Clone" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gherkin feature file" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Alerts_And_Logs" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Features/Steps/Login/LoginScenarios.feature" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1PgzXQi3zQamv6zHSMOSYA3cBn9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/App_Binaries" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Features/Steps/About/About_Support.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App_Binaries" />
+      <recent name="$PROJECT_DIR$/Modules/iOS_Modules" />
+      <recent name="$PROJECT_DIR$/Modules/Android_Modules" />
+      <recent name="$PROJECT_DIR$/Features/Steps/Networks" />
+      <recent name="$PROJECT_DIR$/Base_Capabilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Features/Steps/Accounts" />
+      <recent name="$PROJECT_DIR$/Features/Steps/Ping" />
+      <recent name="$PROJECT_DIR$/Features/Steps/SpeedTest" />
+      <recent name="$PROJECT_DIR$/Features" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.NCM_Android">
+    <configuration name="Device_Details_Cellular_Health" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Venice_Workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modules/Android_Modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modules/Android_Modules/Device_Details_Cellular_Health.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NCM_Android" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Venice_Workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Cases/NCM_Android.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NCM_iOS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Venice_Workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Cases/NCM_iOS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Verify_Android" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Venice_Workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Cases/Verify_Android.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Verify_iOS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Venice_Workspace" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Cases/Verify_iOS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Device_Details_Cellular_Health" />
+      <item itemvalue="Python.Verify_Android" />
+      <item itemvalue="Python.Verify_iOS" />
+      <item itemvalue="Python.NCM_iOS" />
+      <item itemvalue="Python.NCM_Android" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.NCM_Android" />
+        <item itemvalue="Python.Verify_Android" />
+        <item itemvalue="Python.Verify_iOS" />
+        <item itemvalue="Python.NCM_iOS" />
+        <item itemvalue="Python.Device_Details_Cellular_Health" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="704332b5-9d52-4487-87da-3c261fbbc801" name="Default Changelist" comment="" />
+      <created>1560258873439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560258873439</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1. Modules - Android,iOS&#10;2. Alerts &amp; Logs - Locators&#10;3. Alerts &amp; Logs - Android Functions">
+      <created>1572369553885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572369553885</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1. Modules - Android,iOS&#10;2. Alerts &amp; Logs - Android Locators&#10;3. Alerts &amp; Logs - Android Functions&#10;4. Alerts &amp; Logs - iOSLocators&#10;5. Alerts &amp; Logs - iOS Functions">
+      <created>1572441957030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572441957030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1. Modules - Android,iOS&#10;2. Alerts &amp; Logs - Android Locators&#10;3. Alerts &amp; Logs - Android Functions&#10;4. Alerts &amp; Logs - iOSLocators&#10;5. Alerts &amp; Logs - iOS Functions&#10;6. Alerts &amp; Logs - Android Locators&#10;7. Alerts &amp; Logs - Android Functions&#10;8. Alerts &amp; Logs - iOS Alert Logs Test Cases&#10;9. Alerts &amp; Logs - iOS Activity Logs Test Cases">
+      <created>1572602280749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572602280749</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1. Modules - Android,iOS&#10;2. Alerts &amp; Logs - Android Locators&#10;3. Alerts &amp; Logs - Android Functions&#10;4. Alerts &amp; Logs - iOSLocators&#10;5. Alerts &amp; Logs - iOS Functions&#10;6. Alerts &amp; Logs - Android Locators&#10;7. Alerts &amp; Logs - Android Functions&#10;8. Alerts &amp; Logs - iOS Alert Logs Test Cases&#10;9. Alerts &amp; Logs - iOS Activity Logs Test Cases&#10;10. Alerts &amp; Logs - Android Alert Logs Test Cases&#10;11. Alerts &amp; Logs - Android Activity Logs Test Cases">
+      <created>1572939009042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572939009044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="BDD Framework Introduction Scenarios&#10;&#10;Login Screen Scenarios">
+      <created>1575049899812</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575049899812</updated>
+    </task>
+    <task id="LOCAL-00006" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me">
+      <created>1575905612920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575905612920</updated>
+    </task>
+    <task id="LOCAL-00007" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me">
+      <created>1575905685421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575905685421</updated>
+    </task>
+    <task id="LOCAL-00008" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me">
+      <created>1575906531946</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575906531946</updated>
+    </task>
+    <task id="LOCAL-00009" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;&#10;Removed Rough Files">
+      <created>1575906592013</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575906592013</updated>
+    </task>
+    <task id="LOCAL-00010" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Switch Accounts - Android&#10;&#10;Removed Rough Files">
+      <created>1576354376931</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576354376931</updated>
+    </task>
+    <task id="LOCAL-00011" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;&#10;Removed Rough Files&#10;&#10;Reusable functions for iOS">
+      <created>1577365756892</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577365756892</updated>
+    </task>
+    <task id="LOCAL-00012" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Device Details Screen&#10;Removed Rough Files">
+      <created>1577976937554</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577976937554</updated>
+    </task>
+    <task id="LOCAL-00013" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;Removed Rough Files">
+      <created>1578291642940</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578291642940</updated>
+    </task>
+    <task id="LOCAL-00014" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;Removed Rough Files">
+      <created>1579801410090</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579801410090</updated>
+    </task>
+    <task id="LOCAL-00015" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;Removed Rough Files">
+      <created>1579866926133</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579866926133</updated>
+    </task>
+    <task id="LOCAL-00016" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;Removed Rough Files">
+      <created>1580227174910</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580227174911</updated>
+    </task>
+    <task id="LOCAL-00017" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;Removed Rough Files">
+      <created>1580231841159</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1580231841159</updated>
+    </task>
+    <task id="LOCAL-00018" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;Removed Rough Files">
+      <created>1581077038460</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581077038460</updated>
+    </task>
+    <task id="LOCAL-00019" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;Removed Rough Files">
+      <created>1581925845000</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581925845000</updated>
+    </task>
+    <task id="LOCAL-00020" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;Removed Rough Files">
+      <created>1582796158760</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1582796158762</updated>
+    </task>
+    <task id="LOCAL-00021" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;Removed Rough Files">
+      <created>1583263195893</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583263195893</updated>
+    </task>
+    <task id="LOCAL-00022" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;Removed Rough Files">
+      <created>1584017511162</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1584017511162</updated>
+    </task>
+    <task id="LOCAL-00023" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;Removed Rough Files">
+      <created>1585241068024</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585241068024</updated>
+    </task>
+    <task id="LOCAL-00024" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;Removed Rough Files">
+      <created>1585342023799</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585342023800</updated>
+    </task>
+    <task id="LOCAL-00025" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;Removed Rough Files">
+      <created>1585509139047</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1585509139047</updated>
+    </task>
+    <task id="LOCAL-00026" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;Removed Rough Files">
+      <created>1587737945630</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1587737945630</updated>
+    </task>
+    <task id="LOCAL-00027" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;Removed Rough Files">
+      <created>1588177246446</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1588177246446</updated>
+    </task>
+    <task id="LOCAL-00028" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;Removed Rough Files">
+      <created>1588253733418</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1588253733418</updated>
+    </task>
+    <task id="LOCAL-00029" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files">
+      <created>1588612069161</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1588612069161</updated>
+    </task>
+    <task id="LOCAL-00030" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files">
+      <created>1588773205010</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1588773205010</updated>
+    </task>
+    <task id="LOCAL-00031" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;Removed Rough Files">
+      <created>1588868233729</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1588868233729</updated>
+    </task>
+    <task id="LOCAL-00032" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;Removed Rough Files">
+      <created>1588947871875</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1588947871875</updated>
+    </task>
+    <task id="LOCAL-00033" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Accounts Screen Reusable Functions &amp; Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files">
+      <created>1591373720173</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1591373720173</updated>
+    </task>
+    <task id="LOCAL-00034" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files">
+      <created>1591614087075</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591614087075</updated>
+    </task>
+    <task id="LOCAL-00035" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification&#10;Removed Rough Files">
+      <created>1591626248916</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1591626248916</updated>
+    </task>
+    <task id="LOCAL-00036" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files">
+      <created>1591634904461</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1591634904461</updated>
+    </task>
+    <task id="LOCAL-00037" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;39. [iOS] - About Section Corrections&#10;Removed Rough Files">
+      <created>1591726686213</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1591726686221</updated>
+    </task>
+    <task id="LOCAL-00038" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;39. [iOS] - About Section Corrections&#10;40. Driver initiation optimized.&#10;Removed Rough Files">
+      <created>1591790879066</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1591790879066</updated>
+    </task>
+    <task id="LOCAL-00039" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;39. [iOS] - About Section Corrections&#10;40. Driver initiation optimized.&#10;41. [Android] - EULA Webview Title Verification&#10;42. Fetching connected iOS Device details and passing them to the script so that the scripts can run on any iOS device which has developer certificates.&#10;Removed Rough Files">
+      <created>1591976942755</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1591976942755</updated>
+    </task>
+    <task id="LOCAL-00040" summary="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;39. [iOS] - About Section Corrections&#10;40. Driver initiation optimized.&#10;41. [iOS] - Router_Accesspoint_Filter test cases&#10;42. [Android] - Router_Accesspoint_Filter test cases&#10;Removed Rough Files">
+      <created>1592216602933</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1592216602933</updated>
+    </task>
+    <task id="LOCAL-00041" summary="1. [iOS] - Interfaces Test Cases mofification.&#10;2. [Android] - Interfaces Test Cases mofification.">
+      <created>1592426707976</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1592426707976</updated>
+    </task>
+    <task id="LOCAL-00042" summary="1. [Android] - Device Details Cards Reusable functions&#10;2. [iOS] - Device Details Cards Reusable functions">
+      <created>1594061915273</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1594061915273</updated>
+    </task>
+    <task id="LOCAL-00043" summary="[Android &amp; iOS] - Devices Details Screen Reusable fucntions and Test Cases&#10;1. Home Tab cards&#10;2. Data Usage Tab Card&#10;3. Health Tab Cards">
+      <created>1594313081356</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1594313081356</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Accounts Screen Reusable Functions &amp; Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;39. [iOS] - About Section Corrections&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;39. [iOS] - About Section Corrections&#10;40. Driver initiation optimized.&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;39. [iOS] - About Section Corrections&#10;40. Driver initiation optimized.&#10;41. [Android] - EULA Webview Title Verification&#10;42. Fetching connected iOS Device details and passing them to the script so that the scripts can run on any iOS device which has developer certificates.&#10;Removed Rough Files" />
+    <MESSAGE value="BDD Framework Introduction Scenarios&#10;&#10;Scenarios&#10;1. Login&#10;2. Routers Tab&#10;3. Access Point Tab &#10;4. Alert Logs&#10;5. Activity Logs&#10;6. Remember Me&#10;7. Routers - Device Details Screen&#10;8. Routers - Interface Details Screen&#10;9. Access point - Interface Details Screen&#10;10. Settings Screen&#10;11. About &amp; Support Screen&#10;12. Forgot Password.&#10;13. Switch to a particular account&#10;14. Restructured Code&#10;15. Refactored Code&#10;16. Adding Step Directory&#10;17. Updating new Element locators &#10;18. Bug Fixes except Routers &amp; Access Point&#10;19. [iOS] - Fingerprint Enable &amp; Disable Access&#10;20. Switch to specific account&#10;21. [iOS] - Networks Screen&#10;22. Modified Devices Screen &amp; Device Details Screen&#10;23. Bug Fixes This Week&#10;24. [iOS] - Device Details Test cases&#10;25. [Android] - Device Details Test Cases&#10;26. [iOS] - PING &amp; SPEED TEST SCREENS Reusable Functions &amp; TesT Cases.&#10;27. [iOS] - Accounts Screen Reusable Functions&#10;28. [iOS] - Subscriptions Reusable Functions&#10;29. [iOS] - Accounts - Users Tab Test cases Initiated&#10;30. [iOS] - Accounts - Subscriptions Tab Test cases Initiated&#10;31. [iOS] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;32. [iOS] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;33. [iOS] - Unlicensed &amp; NonCompliant devices list screen - Ui Components verification&#10;34. [Android] - Subscriptions Reusable Functions&#10;35. [Android] - Accounts - Users Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;36. [Android] - Accounts - Subscriptions Tab Test cases (UI Elements &amp; Data verification against the Web App using API Calls)&#10;37. [Android] - Unlicensed devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;38. [Android] - NonCompliant devices list screen - Ui Components verification (UI Elements &amp; Data verification against the Web App using API Calls)&#10;39. [iOS] - About Section Corrections&#10;40. Driver initiation optimized.&#10;41. [iOS] - Router_Accesspoint_Filter test cases&#10;42. [Android] - Router_Accesspoint_Filter test cases&#10;Removed Rough Files" />
+    <MESSAGE value="1. [iOS] - Interfaces Test Cases mofification.&#10;2. [Android] - Interfaces Test Cases mofification." />
+    <MESSAGE value="1. [Android] - Device Details Cards Reusable functions&#10;2. [iOS] - Device Details Cards Reusable functions" />
+    <MESSAGE value="[Android &amp; iOS] - Devices Details Screen Reusable fucntions and Test Cases&#10;1. Home Tab cards&#10;2. Data Usage Tab Card&#10;3. Health Tab Cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Android &amp; iOS] - Devices Details Screen Reusable fucntions and Test Cases&#10;1. Home Tab cards&#10;2. Data Usage Tab Card&#10;3. Health Tab Cards" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Screens/iOS/iOS_Switch_Account_Screen.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Screens/iOS/iOS_Alerts_Logs_Screen.py</url>
+          <line>272</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Cases/test_screennavigation.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Cases/test_switchaccount.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Features/Steps/Access_Point/AccesspointFilter.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Features/Steps/Access_Point/AccespointFilter1.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Features/Steps/Forgot_Password/ForgotPassword.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Features/Steps/Accounts/Accounts.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Features/Steps/Interfaces/Interfaces.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Features/Steps/Devices/Device_Details.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Features/Steps/Devices/Device_Details_Health.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="id_" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
