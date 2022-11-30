@@ -9,8 +9,8 @@ ios_device_name = ""
 
 # ANDROID APP DETAILS
 packageName = ""
-appPackage = ""
-appActivity = ""
+appPackage = "com.bullitt.wave"
+appActivity = "com.bullitt.wave.MainActivity"
 android_app_path = path + "/App_Binaries/"
 
 

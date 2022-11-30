@@ -1,0 +1,1 @@
+{"uuid": "1575ab72-36c9-41b8-b83e-c184649d5fb9", "children": ["8239429d-fd9a-45a8-a3ea-4c0e2f37f51d"], "befores": [{"name": "pytestbdd_then_01 Delete a conversation", "status": "passed", "start": 1669806833038, "stop": 1669806833038}], "start": 1669806833038, "stop": 1669806841886}

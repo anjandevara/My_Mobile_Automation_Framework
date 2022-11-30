@@ -1,0 +1,2 @@
+List of devices attached
+1387464729000N1	device

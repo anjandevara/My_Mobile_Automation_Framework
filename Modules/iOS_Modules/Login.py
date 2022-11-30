@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from Base_Capabilities.Fetch_Desired_Capabilities import Fetch_Desired_Capabilities
 from Base_Capabilities.Find_Elements import FindElements
-from Locators.LoginScreen_Locators import *
+from Locators.Android_Locators import *
 
 
 class TestLoginScreenI(FindElements):

@@ -1,0 +1,1 @@
+{"uuid": "27a377a7-9400-4714-97e3-13d519d768b1", "children": ["10efe0ef-a613-45b6-885e-891b4001b7ed"], "befores": [{"name": "pytestbdd_then_02 Verify the laste received message", "status": "passed", "start": 1669805665698, "stop": 1669805665698}], "start": 1669805665698, "stop": 1669805667006}

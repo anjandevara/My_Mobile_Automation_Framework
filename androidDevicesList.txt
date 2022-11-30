@@ -1,0 +1,2 @@
+List of devices attached
+RZ8M52Q39SP	device

@@ -1,0 +1,1 @@
+{"uuid": "c64fa387-e7b8-4d6d-a3b3-866528f54926", "children": ["488be77f-3b62-4fb0-ac24-c209af50e0d3"], "befores": [{"name": "pytestbdd_given_The application is launched", "status": "passed", "start": 1669806496556, "stop": 1669806496556}], "start": 1669806496556, "stop": 1669806510498}

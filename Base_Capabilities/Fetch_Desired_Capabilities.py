@@ -2,7 +2,6 @@ import subprocess
 
 from Base_Capabilities.Commands import *
 
-
 class Fetch_Desired_Capabilities:
 
     # FETCH ANDROID DEVICE NAME
@@ -16,8 +15,8 @@ class Fetch_Desired_Capabilities:
 
     # FETCH ANDROID PLATFORM NAME
     @classmethod
-    def get_device_platformname(cls):
-        p = subprocess.Popen(get_platform_name, stdout=subprocess.PIPE, shell=True)
+    def get_device_platformname(cls, deviceID):
+        p = subprocess.Popen("adb -s " + deviceID + " shell getprop net.bt.name", stdout=subprocess.PIPE, shell=True)
         (output, err) = p.communicate()
         p.wait()
         # print(str(output.decode('ascii')))
@@ -25,8 +24,8 @@ class Fetch_Desired_Capabilities:
 
     # FETCH ANDROID DEVICE VERSION
     @classmethod
-    def get_android_device_version(cls):
-        p = subprocess.Popen(get_device_version, stdout=subprocess.PIPE, shell=True)
+    def get_android_device_version(cls, deviceID):
+        p = subprocess.Popen("adb  -s " + deviceID + " shell getprop ro.build.version.release", stdout=subprocess.PIPE, shell=True)
         (output, err) = p.communicate()
         p.wait()
 
@@ -93,7 +92,13 @@ class Fetch_Desired_Capabilities:
 
 
     @classmethod
-    def confirm_platform(cls):
-        connected_device_platform = cls.get_device_platformname()
+    def confirm_platform(cls, deviceID):
+        connected_device_platform = cls.get_device_platformname(deviceID)
         print(connected_device_platform)
         return connected_device_platform
+
+    # @classmethod
+    # def confirm_platform(cls):
+    #     connected_device_platform = cls.get_device_platformname(deviceID)
+    #     print(connected_device_platform)
+    #     return connected_device_platform
