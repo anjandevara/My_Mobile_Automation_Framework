@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="704332b5-9d52-4487-87da-3c261fbbc801" name="Default Changelist" comment="[Android &amp; iOS] - Devices Details Screen Reusable fucntions and Test Cases&#10;1. Home Tab cards&#10;2. Data Usage Tab Card&#10;3. Health Tab Cards" />
+    <list default="true" id="704332b5-9d52-4487-87da-3c261fbbc801" name="Default Changelist" comment="[Android &amp; iOS] - Devices Details Screen Reusable fucntions and Test Cases&#10;1. Home Tab cards&#10;2. Data Usage Tab Card&#10;3. Health Tab Cards">
+      <change afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/Steps/Android/WiFi_Toggle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/Steps/Android/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mobile-automation-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mobile-automation-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/Rough3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/Rough3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/access_notification.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/access_notification.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/block_contact_on_receiver_side.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/block_contact_on_receiver_side.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/send_a_message.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/send_a_message.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/send_message_to_a_receiver_who_blocked_current_contact.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/send_message_to_a_receiver_who_blocked_current_contact.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/test_01_Receiver_Block_Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/test_01_Receiver_Block_Contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/test_02_Send_Message_from_Blocked_Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/test_02_Send_Message_from_Blocked_Contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/test_03_Unblock_Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/test_03_Unblock_Contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/test_04_send_a_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/test_04_send_a_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/test_05_access_message_from_notification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/test_05_access_message_from_notification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/test_06_verify_blue_ticks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/test_06_verify_blue_ticks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/unblock_contacts_from_blocked_list.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/unblock_contacts_from_blocked_list.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/unblock_the_contact.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/unblock_the_contact.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/verify_the_blue_ticks.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/verify_the_blue_ticks.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Bookmark_Conversations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Bookmark_Conversations/bookmark_conversation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Bookmark_Conversations/bookmark_conversation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Bookmark_Conversations/test_Bookmark_Conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Bookmark_Conversations/test_Bookmark_Conversation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Delete_Conversation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Bookmark_Conversations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Delete_Conversation/delete_conversation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Delete_Conversation/delete_conversation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Delete_Conversation/test_01_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Delete_Conversation/test_01_sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Login/LoginScenarios.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Login/LoginScenarios.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Delete_Conversation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Max_Min_Characters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Login/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Max_Min_Characters/max_min_characters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Max_Min_Characters/max_min_characters.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Max_Min_Characters/test_01_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Max_Min_Characters/test_01_sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Pin_Contacts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Max_Min_Characters/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Pin_Contacts/pin_contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Pin_Contacts/pin_contacts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Pin_Contacts/test_01_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Pin_Contacts/test_01_sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Pin_Contacts/test_02_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Pin_Contacts/test_02_sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Pin_Contacts/unpin_contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Pin_Contacts/unpin_contacts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_And_Receive_Message/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Pin_Contacts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_And_Receive_Message/receive_message.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_And_Receive_Message/receive_message.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_And_Receive_Message/send_receive_message.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_And_Receive_Message/send_receive_message.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_And_Receive_Message/test_01_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_And_Receive_Message/test_01_sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_And_Receive_Message/test_02_receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_And_Receive_Message/test_02_receiver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_Location/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_And_Receive_Message/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_Location/receive_location.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_Location/receive_location.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_Location/rough.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_Location/rough.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_Location/send_location.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_Location/send_location.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_Location/test_01_Sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_Location/test_01_Sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/Send_Location/test_02_receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_Location/test_02_receiver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/WiFi_Toggle/WiFi_Toggle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/WiFi_Toggle/WiFi_Toggle.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/WiFi_Toggle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/Send_Location/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Steps/WiFi_Toggle/test_WiFi_Toggle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Steps/Android/WiFi_Toggle/test_WiFi_Toggle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +70,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Android_Code" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +84,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Features/Steps/Login/LoginScenarios.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Features/Steps/Android/Login/LoginScenarios.feature" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,9 +99,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/im-lp-1845/Documents/skylo_automation_repo/Skylo-MobileApp-Automation/mobile-automation-framework",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "two.files.diff.last.used.file": "/Users/im-lp-1845/Documents/mobile-automation-framework/Modules/Android_Modules/receiver_messages.py"
   }
 }]]></component>
@@ -62,11 +116,11 @@
       <recent name="$PROJECT_DIR$/Features/Steps/Networks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Features/Steps/Android" />
       <recent name="$PROJECT_DIR$/Features/Steps" />
       <recent name="$PROJECT_DIR$/Features/Steps/Accounts" />
       <recent name="$PROJECT_DIR$/Features/Steps/Ping" />
       <recent name="$PROJECT_DIR$/Features/Steps/SpeedTest" />
-      <recent name="$PROJECT_DIR$/Features" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_02_Send_Message_from_Blocked_Contact.py">
@@ -138,14 +192,14 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Features/Steps/Send_And_Receive_Message" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Features/Steps/Android/Send_And_Receive_Message" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Features/Steps/Send_And_Receive_Message/test_01_sender.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Features/Steps/Android/Send_And_Receive_Message/test_01_sender.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -154,14 +208,14 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Features/Steps/Block_Unblock_Contact/test_02_Send_Message_from_Blocked_Contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Features/Steps/Android/Block_Unblock_Contact/test_02_Send_Message_from_Blocked_Contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -170,14 +224,14 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Features/Steps/WiFi_Toggle" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Features/Steps/Android/WiFi_Toggle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Features/Steps/WiFi_Toggle/test_WiFi_Toggle.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Features/Steps/Android/WiFi_Toggle/test_WiFi_Toggle.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
