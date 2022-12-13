@@ -16,7 +16,8 @@ class Fetch_Desired_Capabilities:
     # FETCH ANDROID PLATFORM NAME
     @classmethod
     def get_device_platformname(cls, deviceID):
-        p = subprocess.Popen("adb -s " + deviceID + " shell getprop net.bt.name", stdout=subprocess.PIPE, shell=True)
+        p = subprocess.Popen("adb -s " + deviceID + " shell getprop ro.product.system.manufacturer", stdout=subprocess.PIPE, shell=True)
+        # p = subprocess.Popen("adb -s " + deviceID + " shell getprop net.bt.name", stdout=subprocess.PIPE, shell=True)
         (output, err) = p.communicate()
         p.wait()
         # print(str(output.decode('ascii')))

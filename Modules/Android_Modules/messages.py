@@ -1,10 +1,11 @@
 # __author__ = 'Anjan Kumar Devara"
+import subprocess
+
 from appium.webdriver.common.appiumby import AppiumBy
 from appium.webdriver.common.touch_action import TouchAction
 
 from Base_Capabilities.Find_Elements import FindElements
 from Locators.Android_Locators import *
-
 
 class TestMessagesScreenA(FindElements):
 
@@ -263,10 +264,24 @@ class TestMessagesScreenA(FindElements):
     def click_resend_button(self):
         self.resend_icon().click()
 
-    def toggle_wifi(self):
-        self.driver.toggle_wifi()
+    def toggle_wifi_on(self, deviceName):
+        # self.driver.toggle_wifi()
+        cmd = 'adb -s ' + deviceName + ' shell svc wifi enable'
+        print(cmd)
+        p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
+        (output, err) = p.communicate()
+        p.wait()
+
+    def toggle_wifi_off(self, deviceName):
+        # self.driver.toggle_wifi()
+        cmd = 'adb -s ' + deviceName + ' shell svc wifi disable'
+        print(cmd)
+        p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
+        (output, err) = p.communicate()
+        p.wait()
 
     def click_nav_bar(self):
         nav_bar = self.find_element_by_accessibility_id("Open navigation drawer")
         nav_bar.click()
+
 

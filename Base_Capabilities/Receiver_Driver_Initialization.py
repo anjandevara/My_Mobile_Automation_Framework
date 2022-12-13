@@ -12,9 +12,10 @@ from Modules.Android_Modules.login_screen import TestSenderLoginScreenA
 from Modules.Android_Modules.receiver_messages import TestAndroidMessagesScreenR
 
 device2 = "24191JEGR08497"
+# device2 = "24191JEGR08497"
 
 try:
-    if Fetch_Desired_Capabilities.confirm_platform(device2) != "Android":
+    if Fetch_Desired_Capabilities.confirm_platform(device2) != "Google":
         # Connecting to APPIUM SERVER with default port
         # http://localhost:4723/wd/hub
         driver = webdriver.Remote('http://localhost:4723/wd/hub', IOS_Capabilities.install_ios_app())
@@ -50,7 +51,7 @@ __messages_screen = TestAndroidMessagesScreenR(receiverdriver)
 # _______________________________________________________________________________________________________________
 device_actions = DeviceActions()
 
-if Fetch_Desired_Capabilities.confirm_platform(device2) != "Android":
+if Fetch_Desired_Capabilities.confirm_platform(device2) != "Google":
     # senderloginscreen = __login_i
     pass
 else:

@@ -12,10 +12,11 @@ from Modules.Android_Modules.login_screen import TestSenderLoginScreenA
 from Modules.Android_Modules.messages import TestMessagesScreenA
 from Modules.Android_Modules.send_system_settings import TestBlockedContactsA
 
-device1 = "RZ8M52Q39SP"
+device1 = "0123456789ABCDEF"
+# device1 = "0123456789ABCDEF"
 
 try:
-    if Fetch_Desired_Capabilities.confirm_platform(device1) != "Android":
+    if Fetch_Desired_Capabilities.confirm_platform(device1) != "Bullitt":
         # Connecting to APPIUM SERVER with default port
         # http://localhost:4723/wd/hub
         driver = webdriver.Remote('http://localhost:4723/wd/hub', IOS_Capabilities.install_ios_app())
@@ -52,7 +53,7 @@ __blockedContacts = TestBlockedContactsA(senderdriver)
 # _______________________________________________________________________________________________________________
 device_actions = DeviceActions()
 
-if Fetch_Desired_Capabilities.confirm_platform(device1) != "Android":
+if Fetch_Desired_Capabilities.confirm_platform(device1) != "Bullitt":
     # senderloginscreen = __login_i
     pass
 else:

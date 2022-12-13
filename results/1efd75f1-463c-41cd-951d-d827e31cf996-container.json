@@ -1,1 +1,0 @@
-{"uuid": "fd7eda38-088a-4009-a823-5318f4921cec", "children": ["e5fd9a74-bd1c-44d6-a481-74a17e9b7233"], "befores": [{"name": "pytestbdd_then_02 Send a message", "status": "passed", "start": 1669806691072, "stop": 1669806691072}], "start": 1669806691072, "stop": 1669806712243}

@@ -1,1 +1,0 @@
-{"uuid": "8d8e5da2-a6e7-44a7-8fed-230db85f5a3c", "children": ["488be77f-3b62-4fb0-ac24-c209af50e0d3"], "befores": [{"name": "pytestbdd_then_Try sending a message to the Receiver who blocked the current sender", "status": "passed", "start": 1669806496556, "stop": 1669806496556}], "start": 1669806496556, "stop": 1669806510497}

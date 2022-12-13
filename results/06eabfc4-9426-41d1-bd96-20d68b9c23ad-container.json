@@ -1,1 +1,0 @@
-{"uuid": "ac9bf141-e432-454b-a5c6-5a10eed8ed22", "children": ["3b795542-e0f6-4c91-8b0f-0cb65296ab53"], "befores": [{"name": "pytestbdd_then_Tap on back key on the screen", "status": "passed", "start": 1669806513591, "stop": 1669806513592}], "start": 1669806513591, "stop": 1669806514576}

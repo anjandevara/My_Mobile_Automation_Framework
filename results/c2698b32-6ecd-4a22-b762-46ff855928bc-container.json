@@ -1,1 +1,0 @@
-{"uuid": "4646b57b-db5d-4539-99a0-21837d43eb98", "children": ["f565cfcb-4bad-4221-90bf-dcec3ba3bd91"], "befores": [{"name": "pytestbdd_then_01 Open the notification panel and access the WAVE Notification", "status": "passed", "start": 1669806521239, "stop": 1669806521239}], "start": 1669806521239, "stop": 1669806525716}

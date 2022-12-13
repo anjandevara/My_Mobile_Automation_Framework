@@ -10,7 +10,7 @@ from pytest_bdd import (
 from selenium.common.exceptions import WebDriverException, NoSuchAttributeException
 
 from Base_Capabilities.Receiver_Driver_Initialization import receiver_messages_screen
-from Base_Capabilities.Sender_Driver_Initialization import messages_screen
+from Base_Capabilities.Sender_Driver_Initialization import messages_screen, device1
 
 
 @scenario('WiFi_Toggle.feature', '01 Try sending a message when WiFi is ON')
@@ -73,7 +73,7 @@ def on_the_receiver_side_verify_the_last_message_received():
 @then('05 On the sender side turn off the WiFi')
 def on_the_sender_side_turn_off_the_wifi():
     """05 On the sender side turn off the WiFi."""
-    messages_screen.toggle_wifi()
+    messages_screen.toggle_wifi_off(device1)
 
 
 @then('06 Send a message')
@@ -95,7 +95,7 @@ def verify_the_failed_message_elements():
 @then('08 Turn on the WiFi')
 def turn_on_the_wifi():
     """08 Turn on the WiFi."""
-    messages_screen.toggle_wifi()
+    messages_screen.toggle_wifi_on(device1)
 
 
 @then('09 Click on Resend Button')

@@ -28,10 +28,11 @@ class Android_Capabilities(Fetch_Desired_Capabilities):
         desired_caps = {}
         # desired_caps['platformName'] = cls.get_device_platformname(cls.device1)
         desired_caps['platformName'] = "Android"
+        desired_caps['udid'] = "0123456789ABCDEF"
+        # desired_caps['deviceName'] = "24191JEGR08497"
         # desired_caps['platformVersion'] = cls.get_android_device_version(cls.device1)
-        desired_caps['platformVersion'] = "11"
+        desired_caps['platformVersion'] = "12"
         # desired_caps['deviceName'] = cls.get_android_device_name()
-        desired_caps['deviceName'] = "a70qdd"
         desired_caps['automationName'] = "UiAutomator2"
         desired_caps['appPackage'] = appPackage
         desired_caps['appActivity'] = appActivity
@@ -46,7 +47,8 @@ class Android_Capabilities(Fetch_Desired_Capabilities):
         # desired_caps['platformName'] = cls.get_device_platformname(cls.device2)
         desired_caps['platformName'] = "Android"
         desired_caps['platformVersion'] = "12"
-        desired_caps['deviceName'] = "24191JEGR08497"
+        desired_caps['udid'] = "24191JEGR08497"
+        # desired_caps['deviceName'] = "0123456789ABCDEF"
         # desired_caps['platformVersion'] = cls.get_android_device_version(cls.device2)
         # desired_caps['deviceName'] = cls.get_android_device_name()
         desired_caps['automationName'] = "UiAutomator2"
